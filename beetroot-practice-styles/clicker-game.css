@@ -33,7 +33,7 @@ body{
   justify-content: space-around;
 }
 
-.upgrades{
+.upgrades1, .upgrades2, .upgrades3, .upgrades4, .upgrades5{
   border:none;
   background-color: rgb(10, 61, 98);
   height: 40px;
@@ -68,16 +68,27 @@ body{
   transform: translate(-50%, -50%);
   font-size: 60px;
   border-radius: 150px;
-  border: none;
+  border:none;
   background-color: rgb(183, 21, 64);
+  box-shadow:7px 7px 0px 4px rgb(94, 5, 29);
+  
 }
 
 .main-button:hover{
   color: white;
   transition: 0.5s;
+  cursor: pointer;
 }
 
-.upgrades:hover{
+.main-button:active {
+ scale: 0.99;
+ transition: 0.01s;
+ background-color: rgb(218, 50, 95);
+
+}
+
+.upgrades1:hover, .upgrades2:hover, .upgrades3:hover, .upgrades4:hover, .upgrades5:hover{
   color: white;
   transition: 0.3s;
+  cursor: pointer;
 }

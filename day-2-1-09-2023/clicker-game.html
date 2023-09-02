@@ -16,11 +16,11 @@
       <h1 class="game-title">THE CLICKER GAME</h1>
     </main>
     <nav class="upgrades-container">
-      <button class="upgrades">+2 per click (100 clicks required)</button>
-      <button class="upgrades">+4 per click (400 clicks required)</button>
-      <button class="upgrades">+8 per click (1600 clicks required)</button>
-      <button class="upgrades">+16 per click (4800 clicks required)</button>
-      <button class="upgrades">+36 per click (10000 clicks required)</button>
+      <button class="upgrades1" onclick="if(number >= 100 & number <= 300) {document.querySelector('.upgrades1').classList.add('js-upgrade1')}">+2 per click (100 clicks required)</button>
+      <button class="upgrades2" onclick="if(number >= 300 & number <= 900) {document.querySelector('.upgrades2').classList.add('js-upgrade2')}">+4 per click (300 clicks required)</button>
+      <button class="upgrades3" onclick="if(number >= 900 & number <= 2700) {document.querySelector('.upgrades3').classList.add('js-upgrade3')}">+8 per click (900 clicks required)</button>
+      <button class="upgrades4" onclick="if(number >= 2700 & number <= 6750) {document.querySelector('.upgrades4').classList.add('js-upgrade4')}">+16 per click (2700 clicks required)</button>
+      <button class="upgrades5" onclick="if(number >= 6750) {document.querySelector('.upgrades5').classList.add('js-upgrade5')}">+36 per click (6750 clicks required)</button>
     </nav>
   </header>
   <div class="button-container">
