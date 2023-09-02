@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Black Ops One', cursive;
+}
+
+body{
+  background-color: rgb(10, 61, 98);
+  margin: 0px;
+
+}
+
+.title-container{
+  display: flex;
+  border-bottom: 4px solid rgb(60, 99, 130);
+}
+
+.header-container{
+  background-color: rgb(60, 99, 130);
+  margin: 0px;
+  padding:10px 0px 0px 0px;
+
+ 
+}
+
+.game-title{
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.upgrades-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.upgrades{
+  border:none;
+  background-color: rgb(10, 61, 98);
+  height: 40px;
+  width: 20%;
+  padding: 0px;
+  border-bottom:10px solid rgb(60, 99, 130);
+  border-left: 4px solid rgb(60, 99, 130);
+
+}
+
+.upgrades:first-child{
+  border-left: none;
+}
+
+.upgrades:last-child{
+  border-right: 0px solid;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height:89.9vh
+}
+
+.main-button{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  border-radius: 150px;
+  border: none;
+  background-color: rgb(183, 21, 64);
+}
+
+.main-button:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.upgrades:hover{
+  color: white;
+  transition: 0.3s;
+}
