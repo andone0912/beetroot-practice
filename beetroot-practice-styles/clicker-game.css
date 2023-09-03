@@ -92,3 +92,7 @@ body{
   transition: 0.3s;
   cursor: pointer;
 }
+
+.js-upgrade1, .js-upgrade2, .js-upgrade3, .js-upgrade4, .js-upgrade5{
+  background-color: rgb(16, 106, 170);
+}
