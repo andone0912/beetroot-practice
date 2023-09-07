@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.flexbox-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  
+}
+
+.overlay-button {
+  height: 35px;
+  width: 100px;
+  
+}
+
+.overlay-on {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+}
+
+.close-overlay{
+  display: none;
+}
+
+.close-overlay-on{
+  display: inline;
+  float: right;
+  color:white;
+  border: none;
+  background-color: transparent;
+}
+
+.fa-solid{
+  font-size: 46px;
+}
+
+.menu-items-1, .menu-items-2, .menu-items-3{
+  display: none;
+}
+
+.menu-button{
+  display: block;
+  border: none;
+}
+
+.menu-items-on-1, .menu-items-on-2, .menu-items-on-3 {
+  display: block;
+  background-color: azure;
+  border: 2px solid grey;
+
+}
