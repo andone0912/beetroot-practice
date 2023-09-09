@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  position: relative;
+  margin: 0;
+  height: 100%;
+  background-color: rgb(87, 75, 144);
+}
+
+.main-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgb(99, 88, 155);
+  width: 750px;
+  height: 750px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 7px solid rgb(47, 37, 95);
+  height: 700px;
+  width: 700px;
+}
+
+.gridbox-item{
+  border: 7px solid rgb(47, 37, 95);
+  background-color: rgb(95, 84, 148);
+}
