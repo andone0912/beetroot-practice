@@ -25,12 +25,37 @@ body, html{
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 7px solid rgb(47, 37, 95);
+  border: 8px solid rgb(47, 37, 95);
   height: 700px;
   width: 700px;
 }
 
 .gridbox-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 7px solid rgb(47, 37, 95);
   background-color: rgb(95, 84, 148);
+  height: 228.66px;
+  width: 228.66px;
+  
+}
+
+.gridbox-item button{
+  background-color: transparent;
+  border: none;
+  display: flex;
+}
+
+.fa-x, .fa-circle{
+  display: none;
+}
+
+.fa-x-on, .fa-circle-on{
+  width: 150px ;
+  height: 150px;
+  font-size: 150px;
+  color: white;
+  text-shadow: 3px 4px 0px rgb(172, 170, 170);
+  text-align: center;
 }
