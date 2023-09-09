@@ -11,16 +11,19 @@ function closeOverlay() {
 }
 
 function openMenu() {
-  if (document.querySelector('.menu-button').classList.contains('menu-button')) {
+  const menuButton = document.querySelector('.menu-button')
+
+  if (menuButton.classList.contains('menu-off')) {
     document.querySelector('.menu-items-1').classList.add('menu-items-on-1')
     document.querySelector('.menu-items-2').classList.add('menu-items-on-2')
     document.querySelector('.menu-items-3').classList.add('menu-items-on-3')  
-    document.querySelector('.menu-button').classList.add('menu-button-off')
-  } 
-  if (document.querySelector('.menu-button').classList.contains('menu-button-off') && document.querySelector('.menu-button').classList.contains('menu-button')) {
+    menuButton.classList.remove('menu-off')
+    menuButton.classList.add('menu-styles')
+  } else if (!menuButton.classList.contains('menu-off')) {
     document.querySelector('.menu-items-1').classList.remove('menu-items-on-1')
     document.querySelector('.menu-items-2').classList.remove('menu-items-on-2')
     document.querySelector('.menu-items-3').classList.remove('menu-items-on-3')  
-    document.querySelector('.menu-button').classList.remove('menu-button-off')
-  }
+    menuButton.classList.add('menu-off')
+    menuButton.classList.remove('menu-styles')
+    }
 }

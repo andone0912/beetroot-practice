@@ -53,9 +53,22 @@ body{
   border: none;
 }
 
-.menu-items-on-1, .menu-items-on-2, .menu-items-on-3 {
+.menu-items-on-1, .menu-items-on-2, .menu-items-on-3{
   display: block;
-  background-color: azure;
+  background-color: rgb(0, 0, 0);
   border: 2px solid grey;
+  color: white;
+  height: 48px;
+  width: 250px;
 
+}
+
+.menu-styles {
+  display: block;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid grey;
+  color: white;
+  height: 48px;
+  width: 250px;
+  text-align: start;
 }
