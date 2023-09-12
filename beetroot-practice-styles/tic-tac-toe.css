@@ -42,20 +42,27 @@ body, html{
 }
 
 .gridbox-item button{
-  background-color: transparent;
-  border: none;
-  display: flex;
+  display: none;
 }
 
 .fa-x, .fa-circle{
   display: none;
 }
 
-.fa-x-on, .fa-circle-on{
+.x-symbol-on, .circle-on{
   width: 150px ;
   height: 150px;
   font-size: 150px;
   color: white;
   text-shadow: 3px 4px 0px rgb(172, 170, 170);
   text-align: center;
+}
+
+.x-symbol{
+  background-color: transparent;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+
 }
