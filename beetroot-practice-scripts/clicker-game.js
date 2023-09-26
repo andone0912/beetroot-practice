@@ -38,8 +38,7 @@ function addNumber() {
         number = number + 15;
         counterNumber.innerHTML = number;
       }
-  } else {
-    if (document.querySelector('.upgrades5').classList.contains('js-upgrade5')) {
+  } else { if (document.querySelector('.upgrades5').classList.contains('js-upgrade5')) {
       number = number + 67;
       counterNumber.innerHTML = number;
       } else {
