@@ -1,0 +1,32 @@
+
+.rectangle{
+  border: 1px solid black;
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.triangle{
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-top: 80px solid black;
+  opacity: 0.8;
+  animation: openLetter 2s infinite alternate; 
+}
+
+@keyframes openLetter {
+  from{
+  }
+  
+  to{
+    transform: rotateX(180deg) 
+
+  }
+}
