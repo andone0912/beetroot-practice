@@ -96,3 +96,16 @@ body{
 .js-upgrade1, .js-upgrade2, .js-upgrade3, .js-upgrade4, .js-upgrade5{
   background-color: rgb(16, 106, 170);
 }
+
+.not-available:active{
+  animation:not-allowed 2s; 
+}
+
+@keyframes not-allowed {
+  from{
+    background-color: rgb(238, 63, 63);
+    color: white;
+  }
+  to{ background-color: rgb(10, 61, 98);}
+  
+}
