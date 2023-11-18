@@ -4,68 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../beetroot-practice-styles/tic-tac-toe.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/89eb68d74a.js" crossorigin="anonymous"></script>
-  <script src="../beetroot-practice-scripts/tic-tac-toe.js"></script>
+  <script src="../beetroot-practice-scripts/tic-tac-toe.js" defer></script>
   <title>TIC TAC TOE</title>
   <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/566/566294.png">
 </head>
 <body>
-
     <main class="main-container">
-      <div class="grid-container">
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(1)">
-            <i class="fa-solid fa-x icon1"></i>
-          </button>
-        </section>
+      <h1>TIC TAC TOE</h1>
+      <div class="play-button" id="playButton" onclick="document.getElementById('playButton').classList.add('game-on')"><span>PLAY</span></div>
+      <div class="ttt-container">
+        <div class="grid-container">
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(1)">
+              <i class="fa-solid fa-x icon1 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(2)">
-            <i class="fa-regular fa-circle icon2"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(2)">
+              <i class="fa-regular fa-circle icon2 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(3)">
-            <i class="fa-regular fa-circle icon3"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(3)">
+              <i class="fa-regular fa-circle icon3 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(4)">
-            <i class="fa-regular fa-circle icon4"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(4)">
+              <i class="fa-regular fa-circle icon4 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(5)">
-            <i class="fa-regular fa-circle icon5"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(5)">
+              <i class="fa-regular fa-circle icon5 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(6)">
-            <i class="fa-regular fa-circle icon6"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(6)">
+              <i class="fa-regular fa-circle icon6 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(7)">
-            <i class="fa-regular fa-circle icon7"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(7)">
+              <i class="fa-regular fa-circle icon7 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(8)">
-            <i class="fa-regular fa-circle icon8"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(8)">
+              <i class="fa-regular fa-circle icon8 box"></i>
+            </button>
+          </section>
 
-        <section class="gridbox-item gridbox">
-          <button class="x-symbol" onclick="addButtons(9)">
-            <i class="fa-regular fa-circle icon9"></i>
-          </button>
-        </section>
+          <section class="gridbox-item gridbox">
+            <button class="x-symbol" onclick="addButtons(9)">
+              <i class="fa-regular fa-circle icon9 box"></i>
+            </button>
+          </section>
+        </div>
       </div>
     </main>
 </body>
